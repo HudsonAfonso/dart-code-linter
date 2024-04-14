@@ -12,31 +12,31 @@ platforms:
   macos:
 
 dependencies:
-  analyzer: ^6.0.0
-  analyzer_plugin: ^0.11.0
-  ansicolor: ^2.0.1
-  args: ^2.0.0
-  collection: ^1.16.0
-  crypto: ^3.0.0
-  file: ^6.0.0
-  glob: ^2.0.1
-  html: ^0.15.0
-  http: ^1.1.0
-  meta: ^1.7.0
-  path: ^1.8.0
-  platform: ^3.1.0 # overridden for lowest versions compatibility
-  pub_updater: ^0.3.0
+  analyzer: ^6.4.1
+  analyzer_plugin: ^0.11.3
+  ansicolor: ^2.0.2
+  args: ^2.5.0
+  collection: ^1.18.0
+  crypto: ^3.0.3
+  file: ^7.0.0
+  glob: ^2.1.2
+  html: ^0.15.4
+  http: ^1.2.1
+#  meta: ^1.14.0
+  path: ^1.9.0
+  platform: ^3.1.4
+  pub_updater: ^0.4.0
   source_span: ^1.10.0
-  uuid: ^4.1.0
+  uuid: ^4.4.0
   xml: ">=5.3.0 <7.0.0"
-  yaml: ^3.1.0
+  yaml: ^3.1.2
 
 dev_dependencies:
-  coverage: ^1.0.2
-  intl: ">=0.17.0 <0.19.0"
-  lints: ^2.0.0
-  mocktail: ^0.3.0
-  test: ^1.21.0
+  coverage: ^1.7.2
+  intl: ^0.19.0
+  lints: ^3.0.0
+  mocktail: ^1.0.3
+  test: ^1.25.3
 
   # internal package, used only in tests data
   test_lints:
